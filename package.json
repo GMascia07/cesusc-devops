@@ -1,0 +1,23 @@
+{
+  "name": "cesusc-devops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "jest"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GMascia07/cesusc-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GMascia07/cesusc-devops/issues"
+  },
+  "homepage": "https://github.com/GMascia07/cesusc-devops#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
