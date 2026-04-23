@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "jest"
-},
+   "lint": "eslint src/*.js",
+   "test": "jest --coverage"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GMascia07/cesusc-devops.git"
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/GMascia07/cesusc-devops#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
     "jest": "^30.3.0"
   }
 }
